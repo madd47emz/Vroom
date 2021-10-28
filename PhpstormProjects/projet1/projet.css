@@ -1,0 +1,126 @@
+body {
+    height: 100%;
+    background-image: url("images/city.jpg");
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainmenu{
+    margin-top: 35px;
+}
+.mainmenu ul{
+    list-style: none;
+    background-color:#d80814;
+    font-size: 40px;
+    margin-left: 350px;
+    padding-right: 30px;
+    border-radius: 15px;
+    margin-top: -5px;
+}
+.mainmenu ul li{
+    display: inline;
+    padding: 30px
+}
+.mainmenu ul li a{
+    text-decoration: none;
+    font-family: Algerian;
+    color: black;
+}
+.title , .mainmenu{
+    float: left;
+}
+.title{
+    width: 1px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.ggg{  width:640px;
+       margin: auto;
+       overflow: hidden;
+}
+.ggg ul{
+    padding: 0px;
+    list-style: none;
+    width: 2560px;
+    position: relative;
+    animation: example 20s ease-in-out infinite;
+}
+.ggg ul li{
+    float: left;
+    position: relative;
+}
+@keyframes example {
+    10.6%{left: 0px}
+    34.2%{left: -640px}
+    50.8%{left: -1280px}
+    67.4%{left:-1920px}
+    84%{left:-2560px}
+    99.6%{left:-3200px}
+}
+.sport{
+    border-radius: 20px;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.sport:hover {
+    border-radius: 30px;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+.sss{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.sss:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.m{
+    border-radius: 10px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.m:hover{
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: "cooper black";
+    color: red;
+}
+h2{
+    font-size: 50px;
+    font-family: "broadway";
+    color: red;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+}
+p{text-align: center;
+    background-color:;
+    font-family:Algerian;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+footer {font-size: 70px;
+    width: 600px;
+    text-align: left;
+    font-family: Arial;
+    color: gold;
+    margin-top: 100px;
+    background-color: #d80814;
+    border-radius: 100px;
+}
+

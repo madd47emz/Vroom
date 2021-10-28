@@ -1,0 +1,103 @@
+article {height: 2100px; width: 1330px;}
+header {height: 200px; width: 1330px;font-family: "Arial Black";font-size: large;color: red}
+body { height: 100%;
+    background-image: url("images/city.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center
+}
+.mainmenu{
+    margin-top: 35px;
+}
+.mainmenu ul{
+    list-style: none;
+    background-color:#d80814;
+    font-size: 40px;
+    margin-left: 350px;
+    padding-right: 30px;
+    border-radius: 15px;
+    margin-top: -5px;
+}
+.mainmenu ul li{
+    display: inline;
+    padding: 30px
+}
+.mainmenu ul li a{
+    text-decoration: none;
+    font-family: Algerian;
+    color: black;
+}
+.title , .mainmenu{
+    float: left;
+
+}
+.title{
+    width: 1px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.ggg{
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ggg:hover{
+    width: 300px; /* on affiche l'image au carré */
+    height: 300px;
+    border-radius: 50%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+}
+.sss{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.sss:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: broadway;
+    color: aqua;
+}
+h4{font-size: 50px;
+    text-align: center;
+    font-family: cooperblack;
+    color: black;
+    text-emphasis-style: triangle;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Broadway;
+    color: aqua;
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+p{text-align: center;
+    font-family:Algerian;
+    color: red;
+    font-size: 50px;
+    margin-top: 50px;
+}
+footer {font-size: 70px;
+    width: 600px;
+    text-align: left;
+    font-family: Arial;
+    color: gold;
+    margin-top: 100px;
+    background-color: #d80814;
+    border-radius: 100px;
+}
+
